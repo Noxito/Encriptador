@@ -48,3 +48,10 @@ function desencriptar(stringDesencriptada){
     return stringDesencriptada
 
 }
+
+function copiar() {
+
+    var contenido = document.querySelector("#TextoResultado");
+    contenido.select();
+    document.execCommand("copy");
+}
